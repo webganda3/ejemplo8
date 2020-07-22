@@ -1,0 +1,243 @@
+* {
+padding: 0px; 
+margin:0px;
+}
+
+html {
+min-height: 100%;
+position: relative;
+}
+body {
+margin: 0;
+margin-bottom: 40px;
+}
+footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 40px;
+color: white;
+}
+.pie th {
+text-align: center;
+border:transparent;
+padding: 15px;
+}
+
+h1 {
+font-size: 60px;
+font-family:'ubuntu';
+padding-left: 20px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+h2 {
+font-size: 40px;
+}
+
+p {
+font-size: 25px;
+font-family: 'arial';
+}
+
+input, select, textarea {
+font-size: 105%;
+}
+
+#tituloapartado {
+padding-top: 30px;
+}
+
+.blanco {
+color:white;
+font-size: 40px;
+}
+
+.lista {
+}
+
+#cont{ 
+width: 100%; 
+margin: 0 auto 0 auto; 
+text-align: left; 
+}
+
+#encabezado {
+height: 45px;
+width: 100%;
+overflow: hidden;
+background-color: black;
+position: fixed;
+}
+
+#encabezado2 {
+height: 100px;
+width: 70%;
+overflow: hidden;
+float:left;
+background-color: white;
+margin-top: 45px; 
+}
+
+#fondo1 {
+height: 500px;
+width: 100%;
+z-index: 1;
+float:left;
+background-image: url(../img/fondo1.jpg);
+}
+
+#formulario {
+height: 500px;
+width: 30%;
+float: right;
+overflow: hidden;
+z-index: 2;
+background-color: rgba(255, 255, 255, 0.5);
+}
+
+#formulario1 {
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+border: solid red;
+}
+
+#encabezado3 {
+height: 100px;
+width: 30%;
+overflow: hidden;
+float:right;
+background-color: #4856A2;
+text-align: center;
+margin-top: 45px;
+}
+
+#barramenu {
+height: 50px;
+width: 100%;
+overflow: hidden;
+background-color:black;
+position: sticky;
+top: 45px;
+text-align: center;
+}
+
+ul, ol {
+list-style:none;
+}
+
+.nav{
+text-align: center;
+position: relative;
+display: inline-block;
+}
+
+.nav > li {
+float:left;
+width: 250px;
+}
+			
+.nav li a {
+background-color:#4856A2;
+color:#fff;
+text-decoration:none;
+padding:15px 35px;
+display:block;
+}
+			
+.nav li a:hover {
+background-color:#7180D1;
+}
+
+#contenido { 
+width: 100%;
+height: 500px; 
+text-align: center;
+}
+
+#contenedor {
+width: 60%;
+height: 300px;
+margin: auto;
+}
+.textoizquierda {
+float: left;
+width: 50%;
+margin-top: 30px;
+}
+
+.imagenderecha {
+float: right;
+width: 50%;
+margin-top: 30px;
+}
+
+.textoderecha {
+float: right;
+width: 50%;
+margin-top: 30px;
+}
+
+.imagenizquierda {
+float: left;
+width: 50%;
+margin-top: 30px;
+}
+
+#apartado1 {
+height:450px;
+background-color: white;
+margin-top: 50px;
+}
+
+#apartado2 {
+height:650px;
+background-color: grey;
+}
+
+#apartado3 {
+height:400px;
+background-color: white;
+}
+
+#apartado4 {
+height:700px;
+background-color: white;
+}
+
+#apartado5 {
+height:400px;
+background-color: grey;
+}
+
+#apartado6 {
+height:400px;
+background-color: white;
+}
+
+#apartado7 {
+height:400px;
+background-color: white;
+}
+
+#apartado8 {
+height:500px;
+background-color: grey;
+}
+
+#apartado9 {
+height:400px;
+background-color: white;
+}
+
+#apartado10 {
+height:400px;
+background-color: white;
+}
+
+#apartado11 {
+height:400px;
+background-color: white;
+}
