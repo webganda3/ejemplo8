@@ -25,7 +25,7 @@ padding: 15px;
 }
 
 h1 {
-font-size: 60px;
+font-size: 3vw;
 font-family:'ubuntu';
 padding-left: 20px;
 padding-top: 15px;
@@ -45,13 +45,24 @@ input, select, textarea {
 font-size: 105%;
 }
 
+.logo{
+float:left;
+}
+
+.telefono{
+float:right;
+font-color:white;
+line-height: 45px;
+margin-right: 20px;
+}
+
 #tituloapartado {
 padding-top: 30px;
 }
 
 .blanco {
 color:white;
-font-size: 40px;
+font-size: 2vw;
 }
 
 .lista {
@@ -98,10 +109,10 @@ background-color: rgba(255, 255, 255, 0.5);
 }
 
 #formulario1 {
-width: 80%;
+width: 75%;
 margin-left: auto;
 margin-right: auto;
-border: solid red;
+margin-top: 20px;
 }
 
 #encabezado3 {
@@ -119,12 +130,13 @@ height: 50px;
 width: 100%;
 overflow: hidden;
 background-color:black;
-position: sticky;
+position:-webkit-sticky; 
+position:sticky; 
 top: 45px;
 text-align: center;
 }
 
-ul, ol {
+ul {
 list-style:none;
 }
 
@@ -151,6 +163,59 @@ display:block;
 background-color:#7180D1;
 }
 
+.nav2{
+text-align: center;
+position: relative;
+display: inline-block;
+}
+
+.nav2 > li {
+float:left;
+width: 280px;
+}
+			
+.nav2 li p {
+padding:15px 35px;
+display:block;
+text-align: left;
+font-size: 22px;
+}
+
+.nav2 li div {
+margin-top: 40px;
+}
+
+.nav3{
+position: relative;
+display: inline-block;
+}
+.nav3 li {
+padding:15px 15px;
+text-align: left;
+font-size: 22px;
+}
+
+.nav4{
+text-align: center;
+position: relative;
+display: inline-block;
+}
+
+.nav4 > li {
+float:left;
+width: 400px;
+}
+			
+.nav4 li p {
+padding-top: 10px;
+text-align: center;
+font-size: 22px;
+}
+
+.nav4 li div {
+margin-top: 40px;
+}
+
 #contenido { 
 width: 100%;
 height: 500px; 
@@ -162,16 +227,33 @@ width: 60%;
 height: 300px;
 margin: auto;
 }
+
 .textoizquierda {
 float: left;
 width: 50%;
 margin-top: 30px;
 }
 
+#textoizquierda2 {
+float: left;
+width: 30%;
+margin-top: 30px;
+margin-left: 30px;
+height: 100px;
+text-align: left;
+}
+
 .imagenderecha {
 float: right;
 width: 50%;
 margin-top: 30px;
+}
+
+#imagenderecha2{
+float: right;
+width: 60%;
+margin-top: 30px;
+height: 100px;
 }
 
 .textoderecha {
@@ -193,22 +275,22 @@ margin-top: 50px;
 }
 
 #apartado2 {
-height:650px;
+height:620px;
 background-color: grey;
 }
 
 #apartado3 {
-height:400px;
+height:420px;
 background-color: white;
 }
 
 #apartado4 {
-height:700px;
+height:900px;
 background-color: white;
 }
 
 #apartado5 {
-height:400px;
+height:550px;
 background-color: grey;
 }
 
@@ -223,21 +305,21 @@ background-color: white;
 }
 
 #apartado8 {
-height:500px;
+height:770px;
 background-color: grey;
 }
 
 #apartado9 {
-height:400px;
+height:490px;
 background-color: white;
 }
 
 #apartado10 {
-height:400px;
+height:600px;
 background-color: white;
 }
 
 #apartado11 {
-height:400px;
+height:500px;
 background-color: white;
 }
